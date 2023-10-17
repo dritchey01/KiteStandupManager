@@ -1,13 +1,23 @@
-import './App.css'
+import { useState } from "react";
+import "./App.css";
+import Header from "./Components/Header";
+import Home from "./Pages/Home";
+import { ThemeContext } from "./Context/ThemeContext";
 
-function App() {
+const App = () => {
+  const [theme, setTheme] = useState("dark");
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
-  )
-}
+    <ThemeContext.Provider value={{ theme, setTheme }}>
+      <div
+        className={`${theme} ${
+          theme === "dark" ? "bg-[#121212]" : null
+        } h-[100vh]`}
+      >
+        <Header />
+        <Home />
+      </div>
+    </ThemeContext.Provider>
+  );
+};
 
-export default App
+export default App;
