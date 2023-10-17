@@ -1,7 +1,10 @@
-import React from "react";
-
 const Home = () => {
-  return <div>Landing Page</div>;
+  return (
+    <div className="grid grid-cols-4">
+      <div className="bg-red-200 hidden md:block">Teams</div>
+      <div className="col-span-4 md:col-span-3">Issues</div>
+    </div>
+  );
 };
 
 export default Home;

@@ -1,0 +1,19 @@
+{
+  "Teams": [
+    { "name": "Dj", "id": 1 },
+    { "name": "Fethi", "id": 2 },
+    { "name": "Zephyr", "id": 3 },
+    { "name": "Ravi", "id": 4 },
+    { "name": "Krishna", "id": 5 }
+  ],
+  "Issues": [
+    {
+      "id": 100,
+      "repoName": "CP",
+      "teamId": "1",
+      "devId": "2",
+      "issueNumber": "12333",
+      "issueDesc": "test desc for issue number 12333"
+    }
+  ]
+}
