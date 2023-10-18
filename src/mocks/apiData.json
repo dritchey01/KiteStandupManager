@@ -1,19 +1,160 @@
 {
-  "Teams": [
-    { "name": "Dj", "id": 1 },
-    { "name": "Fethi", "id": 2 },
-    { "name": "Zephyr", "id": 3 },
-    { "name": "Ravi", "id": 4 },
-    { "name": "Krishna", "id": 5 }
+  "teams": [
+    { "name": "Dj", "id": 1, "members": [{"id": 10, "name": "Andy Greenhaw"}, {"id": 2, "name": "Fethi Akcay"}, {"id": 3, "name": "Zephyr Yu"}, {"id": 4, "name": "Ravi"}, {"id": 5, "name": "Krishna"}] },
+    { "name": "Fethi", "id": 2, "members": [{"id": 6, "name": "Bethany Jauken"}, {"id": 7, "name": "Irma Leandre"}] },
+    { "name": "Zephyr", "id": 3, "members": [{"id": 8, "name": "Minh Nguyen"}, {"id": 9, "name": "Alfred Shams"}] },
+    { "name": "Ravi", "id": 4, "members": [{"id": 10, "name": "Basha"}, {"id": 11, "name": "Anves"}] },
+    { "name": "Krishna", "id": 5, "members": [{"id": 12, "name": "Mathi"}, {"id": 13, "name": "Vinoth"}] }
   ],
-  "Issues": [
+  "issues": [
     {
       "id": 100,
       "repoName": "CP",
       "teamId": "1",
       "devId": "2",
       "issueNumber": "12333",
-      "issueDesc": "test desc for issue number 12333"
+      "issueDesc": "test desc for issue number 12333",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12333"},
+        {"id": 2, "content": "comment 2 for issue number 12333"},
+        {"id": 3, "content": "comment 3 for issue number 12333"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 101,
+      "repoName": "CP",
+      "teamId": "2",
+      "devId": "6",
+      "issueNumber": "12334",
+      "issueDesc": "test desc for issue number 12334",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12334"},
+        {"id": 2, "content": "comment 2 for issue number 12334"},
+        {"id": 3, "content": "comment 3 for issue number 12334"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 102,
+      "repoName": "CP",
+      "teamId": "2",
+      "devId": "7",
+      "issueNumber": "12335",
+      "issueDesc": "test desc for issue number 12335",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12335"},
+        {"id": 2, "content": "comment 2 for issue number 12335"},
+        {"id": 3, "content": "comment 3 for issue number 12335"}
+      ],
+      "status": "Blocked",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 103,
+      "repoName": "CP",
+      "teamId": "2",
+      "devId": "7",
+      "issueNumber": "12336",
+      "issueDesc": "test desc for issue number 12336",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12336"},
+        {"id": 2, "content": "comment 2 for issue number 12336"},
+        {"id": 3, "content": "comment 3 for issue number 12336"}
+      ],
+      "status": "Todo",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 104,
+      "repoName": "CP",
+      "teamId": "2",
+      "devId": "2",
+      "issueNumber": "12337",
+      "issueDesc": "test desc for issue number 12337",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12337"},
+        {"id": 2, "content": "comment 2 for issue number 12337"},
+        {"id": 3, "content": "comment 3 for issue number 12337"}
+      ],
+      "status": "Dev Complete",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 105,
+      "repoName": "SP",
+      "teamId": "3",
+      "devId": "8",
+      "issueNumber": "12338",
+      "issueDesc": "test desc for issue number 12338",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12338"},
+        {"id": 2, "content": "comment 2 for issue number 12338"},
+        {"id": 3, "content": "comment 3 for issue number 12338"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 106,
+      "repoName": "SP",
+      "teamId": "4",
+      "devId": "11",
+      "issueNumber": "12339",
+      "issueDesc": "test desc for issue number 12339",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12339"},
+        {"id": 2, "content": "comment 2 for issue number 12339"},
+        {"id": 3, "content": "comment 3 for issue number 12339"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 107,
+      "repoName": "SP",
+      "teamId": "5",
+      "devId": "5",
+      "issueNumber": "12340",
+      "issueDesc": "test desc for issue number 12340",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12340"},
+        {"id": 2, "content": "comment 2 for issue number 12340"},
+        {"id": 3, "content": "comment 3 for issue number 12340"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },
+    {
+      "id": 108,
+      "repoName": "SP",
+      "teamId": "5",
+      "devId": "12",
+      "issueNumber": "12341",
+      "issueDesc": "test desc for issue number 12341",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12341"},
+        {"id": 2, "content": "comment 2 for issue number 12341"},
+        {"id": 3, "content": "comment 3 for issue number 12341"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
+    },    {
+      "id": 109,
+      "repoName": "SP",
+      "teamId": "5",
+      "devId": "12",
+      "issueNumber": "12342",
+      "issueDesc": "test desc for issue number 12342",
+      "comments": [
+        {"id": 1, "content": "comment 1 for issue number 12342"},
+        {"id": 2, "content": "comment 2 for issue number 12342"},
+        {"id": 3, "content": "comment 3 for issue number 12342"}
+      ],
+      "status": "In Progress",
+      "milestone": "Iteration 28 - Frontend"
     }
   ]
 }
